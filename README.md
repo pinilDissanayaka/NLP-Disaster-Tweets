@@ -25,3 +25,17 @@ NLP-Disaster-Tweets is a project aimed at leveraging Natural Language Processing
 4. Real-time Dashboard: A dashboard or interface for real-time monitoring and visualization of disaster-related tweets.
 
 5. Research and Reports: Documentation and research reports on the project's findings and insights.
+
+## Dataset Description
+Each sample in the train and test set has the following information:
+
+1. The text of a tweet
+2. A keyword from that tweet (although this may be blank!)
+3. The location the tweet was sent from (may also be blank)
+
+### Columns
+1. id - a unique identifier for each tweet
+2. text - the text of the tweet
+3. location - the location the tweet was sent from (may be blank)
+4. keyword - a particular keyword from the tweet (may be blank)
+5. target - in train.csv only, this denotes whether a tweet is about a real disaster (1) or not (0)
